@@ -4,7 +4,127 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+h1{
+  color:#06365f;
+  width: 350px;
+  font-size: 1.7rem;
+  line-height: 35px;
+}
+
+
+#background-blue{
+  width: 100vw;
+  
+  height: 250px;
+  background: rgb(6,54,95);
+background: linear-gradient(0deg, rgba(6,54,95,0.777027027027027) 0%, rgba(76,129,193,1) 100%);
+  
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  margin-top: -150px;
+  
+}
+
+
+.footer-class >ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  color:#4485b3;
+  font-weight: 600;
+  font-size: 0.6rem;
+  padding-top: 30px;
+  margin-left: 20px;
+}
+
+.grey-color-font{
+  color: rgb(185, 180, 180);
+}
+
+.spacing-list >li{
+  padding-left: 2px;
+  padding-right: 15px;
+}
+
+/* right side of the landing page */
+
+.right-side{
+  margin-left: 40px;
+}
+
+.brand-home{
+  display: flex;
+  align-items: center;
+  margin-left: px;
+}
+
+.brand-home button{
+  display: flex;
+  align-items: center;
+  color:white;
+  width: 150px;
+  background-color: transparent;
+  padding: 4px 1px 2px 25px;
+  border-color: transparent;
+  margin-left: 90px;
+  
+  
+  
+  
+}
+
+.brand-home button .home-image{
+  padding-right: 10px;
+  
+}
+
+.home-image
+
+
+
+
+.instagram-logo{
+  width: 200px;
+  height: auto;
+  margin-right: 250px;
+}
+
+#text{
+  margin-top: -260px;
+  margin-left: 40px;
+  width: 450px;
+}
+
+#text p{
+  padding-top: 20px;
+  line-height: 28px;
+  
+}
+
+
+.badges{
+  padding-top: 50px;
+  margin-left: 40px;
+  
+}
+
+#white-rec  .test{
+  width: 520px;
+}
+
+.badges .badge-iphone{
+  margin-right: 15px;
 }
